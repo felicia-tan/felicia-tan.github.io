@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Felicia Tan</title>
+    <link>https://felicia-tan.github.io/</link>
+    <description>Recent content on Felicia Tan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 13 Jun 2022 00:12:28 +0800</lastBuildDate><atom:link href="https://felicia-tan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://felicia-tan.github.io/about/</link>
+      <pubDate>Mon, 13 Jun 2022 00:47:21 +0800</pubDate>
+      
+      <guid>https://felicia-tan.github.io/about/</guid>
+      <description>I&amp;rsquo;m Felicia. I currently conduct human-computer interaction research at the National University of Singapore (NUS-HCI lab), and previously worked with tech startups and VC. I&amp;rsquo;m plagued by insatiable intellectual hunger and entrepreneurial spirit, though I&amp;rsquo;d rather describe myself as a quiet artist at heart. Music and depth psychology are the two main portals by which I access my interior experience, and the collective human psyche.
+I&amp;rsquo;m too fond of my strings (guitar, violin), the ocean, Carl Jung and all things soulful.</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://felicia-tan.github.io/posts/test/</link>
+      <pubDate>Mon, 13 Jun 2022 00:12:28 +0800</pubDate>
+      
+      <guid>https://felicia-tan.github.io/posts/test/</guid>
+      <description>Hello This is the test.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
