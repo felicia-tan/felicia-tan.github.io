@@ -1,0 +1,104 @@
+baseURL: https://felicia-tan.github.io
+title: Felicia Tan
+theme: PaperMod
+paginate: 5
+
+defaultContentLanguage: en
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: false
+googleAnalytics: ""
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Felicia Tan
+  description: "Felicia Tan's Space"
+  keywords: [Blog, Felicia Tan]
+  author: Felicia Tan
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  displayFullLangName: false
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  # assets:
+  #   favicon: "/favicon.ico"
+
+  profileMode:
+    enabled: true
+    title: Felicia Tan
+    subtitle: Welcome to my space!
+    imageUrl: "fel.jpeg"
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: About Me
+        url: about
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/xxx"
+    - name: email
+      url: "mailto:felicia_tan@zoho.com"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [ "title", "permalink", "summary", "content" ]
+
+menu:
+  main:
+    - identifier: posts
+      name: Blogs
+      url: /posts/
+      weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 2
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 3
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 4
+
+taxonomies:
+  tag: tags
