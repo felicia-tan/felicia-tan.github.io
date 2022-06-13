@@ -1,6 +1,7 @@
 ---
 title: "About"
-date: 2022-06-13T00:47:21+08:00
+author: [""]
+ShowReadingTime: false
 showtoc: false
 comments: false
 searchHidden: true
