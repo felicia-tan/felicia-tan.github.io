@@ -83,21 +83,21 @@ params:
 
 menu:
   main:
-    - identifier: posts
-      name: Blogs
-      url: /posts/
-      weight: 1
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 2
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 3
     - identifier: about
       name: About
       url: /about/
+      weight: 1
+    - identifier: posts
+      name: Blogs
+      url: /posts/
+      weight: 2
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 3
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 4
 
 taxonomies:
