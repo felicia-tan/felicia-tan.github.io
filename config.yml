@@ -58,13 +58,15 @@ params:
     imageWidth: 150
     imageHeight: 150
     buttons:
-      - name: About Me
+      - name: Blogs
+        url: posts
+      - name: About
         url: about
 
   socialIcons:
-    - name: linkedin
+    - name: "linkedin"
       url: "https://www.linkedin.com/xxx"
-    - name: email
+    - name: "email"
       url: "mailto:felicia_tan@zoho.com"
 
   cover:
@@ -83,13 +85,13 @@ params:
 
 menu:
   main:
-    # - identifier: about
-    #   name: About
-    #   url: /about/
-    #   weight: 1
     - identifier: posts
       name: Blogs
       url: /posts/
+      weight: 1
+    - identifier: resume
+      name: Resume
+      url: example.pdf
       weight: 2
     # - identifier: tags
     #   name: Tags
